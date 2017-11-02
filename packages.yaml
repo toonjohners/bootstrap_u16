@@ -1,0 +1,6 @@
+---
+
+- hosts: localhost
+  tasks:
+   - name: Virtualbox install - latest version
+     package: name=virtualbox state=latest
